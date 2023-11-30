@@ -1,0 +1,13 @@
+info:
+  contact: {}
+paths:
+  /ping:
+    get:
+      consumes:
+      - application/json
+      description: 测试 Description
+      produces:
+      - application/json
+      responses: {}
+      summary: 测试 Summary
+swagger: "2.0"
